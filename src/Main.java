@@ -3,12 +3,13 @@ public class Main {
 
 
         // Задание 1
-        int ageAsIs = 21;
+        int ageAsIs = 19;
         int ageNeed = 18;
-        if (ageAsIs < ageNeed) {
-            System.out.println("Если возраст человека " + ageAsIs + " он не достиг совершеннолетия, нужно немного подождать.");
+        if (ageAsIs >= ageNeed) {
+
+            System.out.println("Если возраст человека " + ageAsIs + " он достиг совершеннолетия");
         } else {
-            System.out.println("Если возраст человека " + ageAsIs + " он достиг совершеннолетия.");
+            System.out.println("Если возраст человека " + ageAsIs + " он не достиг совершеннолетия, нужно немного подождать.");
         }
 
         // Задание 2
