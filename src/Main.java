@@ -67,7 +67,7 @@ public class Main {
         int sitting = 60;
         int standing = all - sitting;
 
-        int soldSitting = 59; //Калькулятор
+        int soldSitting = 60; //Калькулятор
         int soldStanding = 41; //Калькулятор
         int allSold = soldSitting + soldStanding;
 
@@ -91,10 +91,12 @@ public class Main {
         int two = 2;
         int three = 3;
 
-        if(two <=one &&three <=two)
+        if(two < one && three < two)
 
         {System.out.println(one);    }
         else    {System.out.println(three);    }
+
+
 
 
     } }
