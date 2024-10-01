@@ -7,6 +7,8 @@ public class Main {
         int ageNeed = 18;
         if (ageAsIs >= ageNeed) {
 
+
+
             System.out.println("Если возраст человека " + ageAsIs + " он достиг совершеннолетия");
         } else {
             System.out.println("Если возраст человека " + ageAsIs + " он не достиг совершеннолетия, нужно немного подождать.");
